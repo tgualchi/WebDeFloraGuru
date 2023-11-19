@@ -25,6 +25,10 @@ footer{
   margin-top: 200px;
 }
 
+img-fluid{
+  height: 0;
+}
+
 #footer{
   
   position: fixed;
