@@ -1,0 +1,42 @@
+/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body {
+    background-image: url('imagenes/fondo\ para\ telefonos\ aguacate\ ilustrado.png');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+/* Estilos para la lista de preguntas y respuestas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #007BFF;
+}
+
+p {
+    color: #555;
+}
+
+/* Estilos para la sección de respuestas (opcional) */
+.answer-section {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
