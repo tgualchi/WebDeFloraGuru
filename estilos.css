@@ -50,8 +50,13 @@ img-fluid{
 }
 
 #botDePod{
-  padding-left: 35px;
+  padding-bottom: 10px;
+  display: flex;
+  /* margin: 20px; */
+  /* padding-left: 24px; */
+  justify-content: space-evenly;
 }
+
 
 .h5 {
     background-color: rgba(0, 100, 0, 0.527);
@@ -295,6 +300,8 @@ img-fluid{
     .form{
       width :75%;
     }
+    
+    
     
 }     
 
