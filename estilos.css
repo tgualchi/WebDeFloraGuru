@@ -22,7 +22,7 @@ body {
 
 footer{
   padding-bottom: 30px;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 img-fluid{
@@ -225,6 +225,10 @@ img-fluid{
     border-bottom: 5px solid #CB64B2; 
     margin-top: 150px; 
 
+  }
+
+  #contDeTarjetasB {
+    margin-top: 50px;
   }
 
 
