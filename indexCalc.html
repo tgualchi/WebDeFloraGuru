@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesCalc.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+
+    <div class="calculator">
+        <h1>Calculadora de IMC</h1>
+        <p>
+            El Índice de Masa Corporal (IMC) es una medida que evalúa la relación entre el peso y la altura de una persona.
+            Se utiliza para clasificar a las personas en diferentes categorías de peso, ayudando a identificar si una persona
+            tiene un peso saludable, infrapeso, sobrepeso u obesidad.
+        </p>
+        <form id="bmiForm">
+            <label for="height">Altura (cm):</label>
+            <input type="number" id="height" required>
+
+            <label for="weight">Peso (kg):</label>
+            <input type="number" id="weight" required>
+
+            <label for="age">Edad:</label>
+            <input type="number" id="age" required>
+
+            <label for="gender">Género:</label>
+            <select id="gender" required>
+                <option value="male">Hombre</option>
+                <option value="female">Mujer</option>
+            </select>
+
+            <button type="button" onclick="calculateBMI()">Calcular IMC</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="scriptCalc.js"></script>
+
+</body>
+</html>

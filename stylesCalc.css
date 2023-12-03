@@ -1,0 +1,63 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+.calculator {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* styles.css */
+
+/* ... (otros estilos) */
+
+.result-DEFICIENTE {
+    color: #ffcc00; /* Amarillo para peso deficiente */
+}
+
+.result-NORMAL {
+    color: #4caf50; /* Verde para peso normal */
+}
+
+.result-SOBREPESO {
+    color: #ff3300; /* Rojo para sobrepeso */
+}
+
+/* Añadido para la categoría de 'Obesidad' */
+.result-OBESIDAD {
+    color: #ff3300; /* Puedes ajustar el color según tus preferencias */
+}
