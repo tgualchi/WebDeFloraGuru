@@ -65,6 +65,7 @@ img-fluid{
 }
 .carousel-item {
     max-height: 700px;
+    border-radius: 10%;
 
 }
 
